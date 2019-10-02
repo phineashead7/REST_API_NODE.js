@@ -8,9 +8,13 @@ A basic REST API with Authentication built using Node.js and MongoDB
 4. There are 5 requests available to manage the records.
 	
 	GET : /person
+	
 	GET : /person/<person_ID>
+	
 	POST : /person
+	
 	PATCH : /person/<person_ID>
+	
 	DELETE : /person/<person_ID>
 
 # GET /person is used to get all the records
@@ -43,7 +47,8 @@ A basic REST API with Authentication built using Node.js and MongoDB
 		] 
 	}"
 	
-	NOTE : you can add as many fields as you want to update. It should be an array of objects with two fiels namely " propName" and "value"
+	NOTE : you can add as many fields as you want to update. 
+	It should be an array of objects with two fiels namely " propName" and "value"
 
 # DELETE /person/<person_ID> is used to delete a record
 	usage: URL:3000/person/<person_ID
