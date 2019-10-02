@@ -12,7 +12,7 @@
     "REST",
     "API"
   ],
-  "author": "Naga Sanjay V",
+  "author": "Deva Dharshini RL",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
