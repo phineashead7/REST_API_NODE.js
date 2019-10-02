@@ -32,7 +32,14 @@ A basic REST API with Authentication built using Node.js and MongoDB
 # PATCH /person/<person_ID> is used to update a record
 	usage: URL:3000/person/<person_ID>
 	
-	send a json body with the fields "{ "token" : "<your auth token>", "fields" : [ { "propValue" : "<name of the field in record>" , "value" : "<the value to be updated>" }, { "propValue" : "<name of another field in record (if you need to update)>" , "<the value to be updated>"}... ] }
+	send a json body with the fields 
+	"{ "token" : "<your auth token>", 
+	"fields" : [ { 
+		"propValue" : "<name of the field in record>" , 
+		"value" : "<the value to be updated>" 
+	}, { "propValue" : "<name of another field in record (if you need to update)>" , 
+		"<the value to be updated>"}... 
+	] }
 	
 	NOTE : you can add as many fields as you want to update. It should be an array of objects with two fiels namely " propName" and "value"
 
