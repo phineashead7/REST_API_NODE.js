@@ -6,6 +6,7 @@ A basic REST API with Authentication built using Node.js and MongoDB
 2. send a post request to ' URL:3000/signup ' (URL -> localhost in my case) with a json file as body containing the fields "email" and "password".
 3. send a post requist to ' URL:3000/login ' with a json file as body containing the fields "email" and "password". Note down your auth token for future use.
 4. There are 5 requests available to manage the records.
+	
 	GET : /person
 	GET : /person/<person_ID>
 	POST : /person
@@ -37,9 +38,10 @@ A basic REST API with Authentication built using Node.js and MongoDB
 	"fields" : [ { 
 		"propValue" : "<name of the field in record>" , 
 		"value" : "<the value to be updated>" 
-	}, { "propValue" : "<name of another field in record (if you need to update)>" , 
+		}, { "propValue" : "<name of another field in record (if you need to update)>" , 
 		"<the value to be updated>"}... 
-	] }
+		] 
+	}"
 	
 	NOTE : you can add as many fields as you want to update. It should be an array of objects with two fiels namely " propName" and "value"
 
